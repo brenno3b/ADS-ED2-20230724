@@ -1,0 +1,8 @@
+C:\20230724\projMVC\projMVC\bin\Debug\projMVC.exe.config
+C:\20230724\projMVC\projMVC\bin\Debug\projMVC.exe
+C:\20230724\projMVC\projMVC\bin\Debug\projMVC.pdb
+C:\20230724\projMVC\projMVC\obj\Debug\projMVC.csproj.AssemblyReference.cache
+C:\20230724\projMVC\projMVC\obj\Debug\projMVC.csproj.SuggestedBindingRedirects.cache
+C:\20230724\projMVC\projMVC\obj\Debug\projMVC.csproj.CoreCompileInputs.cache
+C:\20230724\projMVC\projMVC\obj\Debug\projMVC.exe
+C:\20230724\projMVC\projMVC\obj\Debug\projMVC.pdb

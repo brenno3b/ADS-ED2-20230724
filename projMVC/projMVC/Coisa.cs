@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace projMVC
+{
+    internal class Coisa
+    {
+        private int id;
+        private string descricao;
+
+        public int Id {
+            get => id;
+
+        }
+        public string Descricao {
+            get => descricao; 
+            set => descricao = value; 
+        }
+        public Coisa(int id, string descricao)
+        {
+            this.id = id;
+            this.descricao = descricao;
+        }
+
+        public Coisa(int id): this(id, "")
+        {
+        }
+
+        public Coisa(): this(0, "")
+        {
+        }
+
+        public override string ToString()
+        {
+            return this.id.ToString() + " - " +
+                this.descricao + '\n';
+        }
+    }
+}
