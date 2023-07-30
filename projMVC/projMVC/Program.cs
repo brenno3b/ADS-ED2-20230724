@@ -33,8 +33,14 @@ namespace projMVC
 
             Console.WriteLine(minhasCoisas.pesquisar(new Coisa(2)).ToString());
 
+            Console.WriteLine("--- Remoção ---\n");
 
-            
+            bool gotRemoved = minhasCoisas.remover(new Coisa(2));
+
+            Console.WriteLine(gotRemoved ? "Coisa removida\n" : "Coisa não encontrada\n");
+
+            Console.WriteLine(minhasCoisas.mostrar());
+
         }
     }
 }

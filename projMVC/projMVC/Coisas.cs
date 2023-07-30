@@ -73,8 +73,33 @@ namespace projMVC
 
         public bool remover(Coisa c)
         {
-            // Aqui é problema TEU!!!!
-            return true;
+            int index = IndexOf(c);
+
+            if (index > -1)
+            {
+                this.asCoisas[index] = new Coisa(-1, "...");
+
+                return true;
+            }
+
+            return false;
+        }
+
+        private int IndexOf(Coisa value)
+        {
+            int i = 0; int index = -1;
+
+            while (i < this.max && this.asCoisas[i].Id != value.Id)
+            {
+                i++;
+            }
+
+            if (i < this.max)
+            {
+                index = i;
+            }
+
+            return index;
         }
     }
 
